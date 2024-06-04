@@ -1,0 +1,77 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #141414;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #1F1F1F;
+    width: 450px;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 120px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.card h1 {
+    margin-bottom: 0;
+}
+
+.card h2 {
+    margin-top: 10px;
+    text-align: center;
+    color: hsl(75, 94%, 57%);
+    font-size: 18px;
+}
+.card span {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card ul {
+    padding: 0;
+}
+
+.card ul li {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #333333;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: background-color .3s ease;
+    font-weight: 600;
+}
+
+.card ul li:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
