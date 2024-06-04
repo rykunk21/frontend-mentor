@@ -1,0 +1,90 @@
+.attribution {
+     font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  height: 100vh;
+
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    border-radius: 15px;
+    padding: 30px;
+    border: 3px solid black;
+    box-shadow: 10px 10px black;
+    padding-bottom: 50px;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 25px
+    
+}
+
+.card span {
+    display: flex;
+    background-color:  hsl(47, 88%, 63%);
+    color: black;
+    width: 80px;
+    padding: 8px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+.card h2 {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.card h1 {
+    font-weight: 800;
+}
+
+.card p {
+    font-weight: 500;
+    color: rgb(105, 105, 105);
+    font-size: 18px;
+    line-height: 1.5;
+    
+}
+
+#image-avatar {
+    float: left;
+    height: 40px; 
+    width: 40px;
+    margin: 5px;
+}
+
+.card .author {
+    display: flex;
+    align-items: center;
+}
+
+.card .author h3 {
+    margin-left: 10px;
+    font-weight: 800;
+}
